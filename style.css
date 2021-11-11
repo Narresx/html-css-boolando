@@ -1,11 +1,24 @@
+/* Generics */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-div{
-    width: 500px;
+/* Sections */
+
+.container{
+    width: 60%;
     height: 500px;
-    background-color: blue;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+/* Products */
+
+.product{
+    background-image: url( ./images/1.webp );
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
