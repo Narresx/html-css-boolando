@@ -17,8 +17,49 @@
 /* Products */
 
 .product{
-    background-image: url( ./images/1.webp );
+    display: inline-block;
+    width: calc(99% / 3);
+    height: 100%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     
+}
+
+.one{
+    background-image: url( ./images/1.webp );
+}
+
+.two{
+    background-image: url( ./images/2.webp );
+}
+
+.three{
+    background-image: url( ./images/3.webp );
+}
+
+.four{
+    background-image: url( ./images/4.webp );
+}
+
+.five{
+    background-image: url( ./images/5.webp );
+}
+
+.six{
+    background-image: url( ./images/6.webp );
+}
+
+/* Details */
+
+.details{
+    position: relative;
+    top: 500px;  
+}
+
+.name-product{
+    font-weight: bolder;
+}
+
+.price{
+    color: red;
 }
