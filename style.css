@@ -99,4 +99,5 @@
     width: auto;
     height: auto;
     padding: 5px;
+    z-index: 1;
 }
