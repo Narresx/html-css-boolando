@@ -11,7 +11,10 @@
     width: 60%;
     height: 500px;
     margin: 0 auto;
-    border: 2px solid black;
+}
+
+.spacing{
+    padding-top: 100px;
 }
 
 /* Products */
@@ -62,4 +65,38 @@
 
 .price{
     color: red;
+}
+
+/* Sales & Sustainability */
+
+.sales{
+    position: absolute;
+    background-color: magenta;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    z-index: 1;
+}
+
+.sustainability{
+    position: absolute;
+    background-color: darkgreen;
+    color: white;
+    width: auto;
+    text-align: center;
+    vertical-align: middle;
+    height: auto;
+    padding: 5px;
+    z-index: 1;
+}
+
+.heart{
+    position: absolute;
+    background-color: white;
+    width: auto;
+    height: auto;
+    padding: 5px;
 }
