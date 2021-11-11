@@ -8,6 +8,7 @@
 /* Sections */
 
 .container{
+    position: relative;
     width: 60%;
     height: 500px;
     margin: 0 auto;
@@ -71,7 +72,7 @@
 /* Sales & Sustainability */
 
 .sales{
-    position: absolute;
+    position: relative;
     background-color: magenta;
     color: white;
     text-align: center;
@@ -83,7 +84,8 @@
 }
 
 .sustainability{
-    position: absolute;
+    position: relative;
+    left: auto;
     background-color: darkgreen;
     color: white;
     width: auto;
@@ -95,7 +97,8 @@
 }
 
 .heart{
-    position: absolute;
+    position: relative;
+    left: auto;
     background-color: white;
     width: auto;
     height: auto;
