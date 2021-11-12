@@ -33,24 +33,46 @@
     background-image: url( ./images/1.webp );
 }
 
+.one:hover{
+    background-image: url(./images/1b.webp);
+}
 .two{
     background-image: url( ./images/2.webp );
+}
+
+.two:hover{
+    background-image: url( ./images/2b.webp );
 }
 
 .three{
     background-image: url( ./images/3.webp );
 }
 
+.three:hover{
+    background-image: url( ./images/3b.webp );
+}
 .four{
     background-image: url( ./images/4.webp );
+}
+
+.four:hover{
+    background-image: url( ./images/4b.webp );
 }
 
 .five{
     background-image: url( ./images/5.webp );
 }
 
+.five:hover{
+    background-image: url( ./images/5b.webp );
+}
+
 .six{
     background-image: url( ./images/6.webp );
+}
+
+.six:hover{
+    background-image: url( ./images/6b.webp );
 }
 
 /* Details */
@@ -98,7 +120,8 @@
 
 .heart{
     position: relative;
-    left: auto;
+    top: 0;
+    right: ;
     background-color: white;
     width: auto;
     height: auto;
