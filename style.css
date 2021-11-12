@@ -21,6 +21,7 @@
 /* Products */
 
 .product{
+    position: relative;
     display: inline-block;
     width: calc(99% / 3);
     height: 100%;
@@ -93,8 +94,13 @@
 
 /* Sales & Sustainability */
 
-.sales{
+/* .line-adjustment{
     position: relative;
+} */
+
+.sales{
+    position: absolute;
+    bottom: 20px;
     background-color: magenta;
     color: white;
     text-align: center;
@@ -106,8 +112,9 @@
 }
 
 .sustainability{
-    position: relative;
-    left: auto;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
     background-color: darkgreen;
     color: white;
     width: auto;
@@ -119,12 +126,16 @@
 }
 
 .heart{
-    position: relative;
-    top: 0;
-    right: ;
+    position: absolute;
+    top: 20px;
+    right: 0;
     background-color: white;
     width: auto;
     height: auto;
     padding: 5px;
     z-index: 1;
+}
+
+.heart:hover{
+    color: red;
 }
